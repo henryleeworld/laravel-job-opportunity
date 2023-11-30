@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html lang="zxx" class="no-js">
+<!doctype html>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}" class="no-js">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="shortcut icon" href="img/fav.png">
@@ -51,7 +51,7 @@
         <script src="{{ asset('js/jquery.sticky.js') }}"></script>
         <script src="{{ asset('js/jquery.nice-select.min.js') }}"></script>			
         <script src="{{ asset('js/parallax.min.js') }}"></script>		
-        <script src="{{ asset('js/mail-script.js') }}"></script>	
-        <script src="{{ asset('js/app.js') }}"></script>	
+        <script src="{{ asset('js/mail-script.js') }}"></script>
+        <script src="{{ asset('js/app.js') }}"></script>
     </body>
 </html>

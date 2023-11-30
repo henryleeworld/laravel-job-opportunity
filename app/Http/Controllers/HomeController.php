@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
-use App\Location;
-use App\Job;
+use App\Models\Category;
+use App\Models\Location;
+use App\Models\Job;
 use Illuminate\Http\Request;
 
 class HomeController extends Controller

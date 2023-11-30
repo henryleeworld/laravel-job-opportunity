@@ -2,14 +2,14 @@
 
 namespace App\Http\Controllers\Admin;
 
-use App\Category;
-use App\Company;
+use App\Models\Category;
+use App\Models\Company;
+use App\Models\Job;
+use App\Models\Location;
 use App\Http\Controllers\Controller;
 use App\Http\Requests\MassDestroyJobRequest;
 use App\Http\Requests\StoreJobRequest;
 use App\Http\Requests\UpdateJobRequest;
-use App\Job;
-use App\Location;
 use Gate;
 use Illuminate\Http\Request;
 use Symfony\Component\HttpFoundation\Response;

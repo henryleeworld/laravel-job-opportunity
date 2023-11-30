@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Location;
-use App\Job;
+use App\Models\Job;
+use App\Models\Location;
 
 class LocationController extends Controller
 {

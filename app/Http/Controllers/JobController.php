@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
-use App\Job;
-use App\Location;
+use App\Models\Category;
+use App\Models\Job;
+use App\Models\Location;
 
 class JobController extends Controller
 {

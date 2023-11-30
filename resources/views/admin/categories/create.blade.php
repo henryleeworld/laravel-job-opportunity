@@ -9,7 +9,7 @@
     <div class="card-body">
         <form action="{{ route("admin.categories.store") }}" method="POST" enctype="multipart/form-data">
             @csrf
-            <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
+            <div class="mb-3 {{ $errors->has('name') ? 'has-error' : '' }}">
                 <label for="name">{{ trans('cruds.category.fields.name') }}*</label>
                 <input type="text" id="name" name="name" class="form-control" value="{{ old('name', isset($category) ? $category->name : '') }}" required>
                 @if($errors->has('name'))

@@ -2,8 +2,8 @@
 
 namespace App\Http\Controllers;
 
-use App\Category;
-use App\Job;
+use App\Models\Category;
+use App\Models\Job;
 
 class CategoryController extends Controller
 {
